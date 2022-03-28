@@ -1,5 +1,5 @@
 getwd()
-setwd('/Users/anastasiosvanis/Desktop/r_lang')
+setwd('./r_lang')
 movies <- read.csv('P2-Movie-Ratings.csv',stringsAsFactors = T)
 
 # -- course 1 - Factor 

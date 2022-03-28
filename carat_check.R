@@ -1,4 +1,4 @@
-#file = '/Users/anastasiosvanis/Desktop/P2-Mispriced-Diamonds.csv'
+#file = './P2-Mispriced-Diamonds.csv'
 mydata <- read.csv(file.choose())
 library(ggplot2)
 

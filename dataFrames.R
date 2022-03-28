@@ -3,7 +3,7 @@ data <- read.csv(file.choose())
 # get working directory
 getwd()
 # set working directory 
-setwd("/Users/anastasiosvanis/Desktop/r_lang")
+setwd("./r_lang")
 rm(data)
 data <- read.csv('./P2-Demographic-Data.csv', stringsAsFactors = T)
 typeof(data)
